@@ -1,15 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import UseRefHookExample from "./components/UseRefHookExample";
+import UseMemoHookExample from "./components/UseMemoHookExample";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <UseRefHookExample />
+      {/* <UseRefHookExample /> */}
+      <UseMemoHookExample/>
     </>
   );
 }
